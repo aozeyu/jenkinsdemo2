@@ -1,4 +1,4 @@
-package demo2;
+package com.example.jenkinsdemo.demo2;
 
 /**
  * 冒泡排序
