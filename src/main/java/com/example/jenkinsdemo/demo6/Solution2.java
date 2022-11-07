@@ -1,5 +1,8 @@
 package com.example.jenkinsdemo.demo6;
 
+/**
+ * @author yaozeyu
+ */
 public class Solution2 {
     public int[] exchange(int[] nums) {
         int i = 0, j = nums.length - 1, temp;
@@ -10,7 +13,8 @@ public class Solution2 {
             while (i<j && (nums[i] & 1) == 0) {
                 j --;
             }
-            temp = nums[i]; // 中间值
+            // 中间值
+            temp = nums[i];
             nums[i] = nums[j];
             nums[j] = temp;
         }
